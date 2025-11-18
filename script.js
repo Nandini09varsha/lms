@@ -339,8 +339,9 @@ window.toggleTheme = toggleTheme;
 window.openSettings = openSettings;
 
 const searchBox = document.querySelector(".search-expand");
-const searchToggle = document.querySelector(".search-toggle");
+const searchToggle = document.querySelector(".icon.small");
 
 searchToggle.addEventListener("click", () => {
   searchBox.classList.toggle("active");
 });
+
