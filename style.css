@@ -165,7 +165,7 @@ body {
   padding-bottom: 8px;
 }
 
-/* MAIN CONTENT */
+
 .main {
   display: flex;
   flex-direction: column;
@@ -220,11 +220,11 @@ body {
   height: 44px;
   overflow: hidden;
   transition: width 0.3s ease;
-  width: 44px; /* collapsed */
+  width: 44px; 
 }
 
 .search-expand.active {
-  width: 280px; /* expanded width */
+  width: 280px; 
 }
 
 .search-toggle {
@@ -251,7 +251,7 @@ body {
   padding: 8px 12px;
   color: white;
   font-size: 0.95rem;
-  display: none; /* hidden until expanded */
+  display: none; 
 }
 
 .search-expand.active .search-input {
